@@ -1,0 +1,105 @@
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.register-container button[type="submit"] {
+    padding: 12px;
+    background: linear-gradient(45deg, #2196F3, #21CBF3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.register-container button[type="submit"]:hover {
+    background: #1976D2;
+}
+
+.register-container .social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.register-container .social-buttons button {
+    padding: 12px 24px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: opacity 0.3s ease;
+}
+
+.register-container .social-buttons button:hover {
+    opacity: 0.8;
+}
+
+.register-container .social-buttons button:first-of-type {
+    background-color: #DB4437; /* Google button color */
+}
+
+.register-container .social-buttons button:last-of-type {
+    background-color: #24292e; /* GitHub button color */
+}
+
+.message {
+    margin-top: 10px;
+    color: red;
+    font-size: 0.9rem;
+}
+
+.MuiInputAdornment-root {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.7;
+}
+
+.MuiIconButton-root {
+    background: transparent;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: none;
+}
+
+.MuiIconButton-root:hover {
+    background-color: transparent;
+}
+
+.MuiTextField-root input {
+    padding-right: 40px; /* Space for the password icon */
+}
+
+.MuiFormControl-root {
+    position: relative;
+}
+
